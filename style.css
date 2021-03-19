@@ -60,8 +60,14 @@ body {
     background-image: url("img/banner.jpg");
     background-size: cover;
     background-position: center;
-    border-radius: 20px;
+    border-radius: 10px;
     }
+
+#header2-black {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 400px;
+    border-radius: 10px;
+}
 
 #testo-header-2-1 {
     font-size: 25px;
@@ -91,57 +97,68 @@ body {
 }
 
 #left{
-    /* background-color: #ABCFE7; */
     width: 18%;
     margin: 15px 0;
     float: left;
-    /* height: 400px; */
 }
 
 #img-left {
     background-image: url("img/img-1.jpg");
-    height: 170px;
+    height: 150px;
     background-size: cover;
     background-position: center;
-    border-radius: 20px; 
+    border-radius: 10px; 
+}
+
+#img-left-black {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 150px;
+    border-radius: 10px;
 }
 
 #center {
-    /* background-color: #ABCFE7; */
     width: 60%;
     margin: 15px 2%;
     float: left;
-    /* height: 400px; */
 }
 
 #img-center {
     background-image: url("img/banner-2.jpg");
-    height: 170px;
+    height: 150px;
     background-size: cover;
     background-position: center;
-    border-radius: 20px;
+    border-radius: 10px;
+}
+
+#img-center-black {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 150px;
+    border-radius: 10px;
 }
 
 #right {
-    /* background-color: #ABCFE7; */
     width: 18%;
     margin: 15px 0;
     float: left;
-    /* height: 400px; */
 }
 
 #img-right {
     background-image: url("img/img-3.jpg");
-    height: 170px;
+    height: 150px;
     background-size: cover;
     background-position: center;
     border-radius: 20px;
 }
 
+#img-right-black {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 150px;
+    border-radius: 10px;
+}
+
 footer {
     height: 50px;
-    /* background-color: #8801FE; */
-    margin-top: 5px;
+    padding-top: 20px;
 }
 
 #testo-footer {
